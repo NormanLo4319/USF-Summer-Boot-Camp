@@ -22,3 +22,6 @@ For installing Anaconda on Window,
 
 For installing Anaconda on Mac,
 <https://docs.anaconda.com/anaconda/install/mac-os/>
+
+## Resources:
+R-Markdown <http://rpubs.com/lokmannorman/USF_Summar>
