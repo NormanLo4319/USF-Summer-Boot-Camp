@@ -33,10 +33,12 @@ Python:
 * [Scipy Library Resource](https://scipy-lectures.org)
 * [Plotly Library Resource](https://plot.ly/python)
 * [MatPlotLib Library Resource](https://matplotlib.org/users/pyplot_tutorial.html)
+
 <br/>
 R:
 * [R-CookBook](http://www.cookbook-r.com)
 * [ggplot Library Resource](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
+
 <br/>
 Overall Programming Related:
 * [Stack Overflow](https://stackoverflow.com)
