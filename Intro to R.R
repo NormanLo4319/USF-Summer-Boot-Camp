@@ -160,3 +160,24 @@ summary(fit)
 
 # Plotting the data and the regression line
 ggplot(health, aes(x=Percent.Obesity, y=Percent.Diabetes))+geom_point(shape=1)+geom_smooth(method=lm)
+
+# Clearning and Manipulating Data
+# Idicating which elements have a N/A value
+test <- is.na(health)
+test
+
+# Create new dataset without missing data
+newdata <- na.omit(health)
+
+# Create a new column in the dataframe 
+# Adding/Substracting two columns
+health$total_survey <- health$Survey.Diabetes + health$Survey.Obesity
+
+# Multiplying/Dividing two columns
+health$total_diabetes <- health$Survey.Diabetes * health$Percent.Diabetes / 100
+
+# Log with a column
+health$log_percent_obesity <- log(health$Percent.Obesity)
+
+# Exponential with a column
+health$exp_log_percent_obesity <- exp(health$log_percent_obesity)
