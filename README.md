@@ -1,4 +1,4 @@
-# USF-Summer-Boot-Camp
+# USF Summer Boot Camp
 Basic use of R and Python through Anaconda Environment
 
 First install R, R-Studio, Python, and Visual Studio Code (VS Code)!
